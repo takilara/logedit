@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogEdit", "LogEdit.csproj", "{82BD205C-4505-4F99-ABC3-6DD2580033E7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LogEditSetup", "installer\LogEditSetup.vdproj", "{1A9E6080-4553-4BF9-B4E0-12CEF048A087}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ansitortf", "..\ansitortf\ansitortf.csproj", "{74C2175C-2019-4DF5-AEA1-C473979638BA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{82BD205C-4505-4F99-ABC3-6DD2580033E7}.Debug.ActiveCfg = Debug|.NET
+		{82BD205C-4505-4F99-ABC3-6DD2580033E7}.Debug.Build.0 = Debug|.NET
+		{82BD205C-4505-4F99-ABC3-6DD2580033E7}.Release.ActiveCfg = Release|.NET
+		{82BD205C-4505-4F99-ABC3-6DD2580033E7}.Release.Build.0 = Release|.NET
+		{1A9E6080-4553-4BF9-B4E0-12CEF048A087}.Debug.ActiveCfg = Debug
+		{1A9E6080-4553-4BF9-B4E0-12CEF048A087}.Release.ActiveCfg = Release
+		{1A9E6080-4553-4BF9-B4E0-12CEF048A087}.Release.Build.0 = Release
+		{74C2175C-2019-4DF5-AEA1-C473979638BA}.Debug.ActiveCfg = Debug|.NET
+		{74C2175C-2019-4DF5-AEA1-C473979638BA}.Debug.Build.0 = Debug|.NET
+		{74C2175C-2019-4DF5-AEA1-C473979638BA}.Release.ActiveCfg = Release|.NET
+		{74C2175C-2019-4DF5-AEA1-C473979638BA}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
